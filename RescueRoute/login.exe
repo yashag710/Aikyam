@@ -1,0 +1,68 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC9ju7R0aQ-dG6BlZ7RQ0toEOyuT_nJfAU",
+    authDomain: "aikyam-33149.firebaseapp.com",
+    projectId: "aikyam-33149",
+    storageBucket: "aikyam-33149.appspot.com",
+    messagingSenderId: "493838205336",
+    appId: "1:493838205336:web:5e90ef53c1f96df9acabed",
+    measurementId: "G-3MGSGQWTT1"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script> <input id="name" type="text" placeholder="Name">
+ <p class="forgetPassword">
+                <a href="#">Forget Your Password?</a>
+                </p>
+                  <div class="social-icons" draggable="false">
+                    <a href="#" class="icon" draggable="false">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </a>
+                    <a href="#" class="icon" draggable="false">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+                
+        <div class="toggle-container">
+            <div class="toggle">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your personal details to use all of site features</p>
+                <button class="hidden" id="login">Sign In</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Hello!</h1>
+                <p>Register with your personal details to use all of site features</p>
+                <button class="hidden" id="register">Sign Up</button>
+            </div>
+        </div>
+        document.getElementById('logout').style.display = 'block';
+         //----- Logout code start	  
+    document.getElementById("logout").addEventListener("click", function() {
+        signOut(auth).then(() => {
+            // Sign-out successful.
+            console.log('Sign-out successful.');
+            alert('Sign-out successful.');
+            document.getElementById('logout').style.display = 'none';
+          }).catch((error) => {
+            // An error happened.
+            console.log('An error happened.');
+          });		  		  
+    });
+    //----- End
+
+
+
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+
+     <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
